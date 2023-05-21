@@ -25,43 +25,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   bottomLeft: Radius.circular(50),
                   bottomRight: Radius.circular(50))),
           floating: true,
-          // snap: false,
           pinned: true,
-
           flexibleSpace: FlexibleSpaceBar(
             background: Image.network(
               'https://cdn.gramedia.com/uploads/marketing/Program_Diskon_CIMB_10_Storefront_wCtBsaT__wauto_h336.jpg',
               fit: BoxFit.cover,
             ),
-            // title: Text("data")
-            // title: Padding(
-            //   padding: const EdgeInsets.only(bottom: 15),
-            //   // child: SizedBox(
-            //   //     height: 30,
-            //   //     width: 150,
-            //   //     child: TextField(
-            //   //       controller: searchController,
-            //   //       decoration: InputDecoration(
-            //   //         filled: true,
-            //   //         fillColor: Colors.white,
-            //   //         enabledBorder: OutlineInputBorder(
-            //   //           borderSide: BorderSide(
-            //   //               width: 1, color: Colors.white), //<-- SEE HERE
-            //   //           borderRadius: BorderRadius.circular(50.0),
-            //   //         ),
-            //   //       ),
-            //   //     )),
-            // ),
-            // background: SafeArea(
-            //     child: Padding(
-            //         padding: EdgeInsets.all(8.0),
-            //         // menu button
-            //         child: ()
-            //         )
-            //         )
-            //         ,
           ),
-
           backgroundColor: Colors.transparent,
           title: SizedBox(
               height: 40,
@@ -105,4 +75,3 @@ class _HomeScreenState extends State<HomeScreen> {
     ));
   }
 }
-

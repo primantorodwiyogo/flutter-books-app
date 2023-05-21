@@ -24,8 +24,6 @@ class ContentHome extends StatelessWidget {
                         )));
           },
           child: Container(
-              // height: 60,
-              // width: 30,
               decoration: BoxDecoration(
                   border: Border.all(width: 2.0),
                   borderRadius: BorderRadius.circular(5.0),
